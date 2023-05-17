@@ -16,10 +16,12 @@ char *str_concat(char *s1, char *s2)
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
+	{
 		s2 = "";
 		v = cv = 0;
+	}
 	while (s1[v] != '\0')
-		i++;
+		v++;
 	while (s2[cv] != '\0')
 		cv++;
 	conct = malloc(sizeof(char) * (v + cv + 1));
