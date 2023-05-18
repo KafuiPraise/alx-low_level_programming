@@ -2,13 +2,14 @@
 #include <stdlib.h>
 
 /**
- * **alloc_grid - creates a two dimensional array of ints
- * @width: width of the matrix
- * @height: height of the matrix
+ * alloc_grid - will creates a two dimensional array of ints
+ * @width: width of the selercted matrix
+ * @height: height of the selected matrix
  *
  * Return: pointer to the created matrix (Success)
  * or NULL (Error)
  */
+
 int **alloc_grid(int width, int height)
 {
 	int **array;
@@ -30,7 +31,7 @@ int **alloc_grid(int width, int height)
 			for (j = 0; j <= i; j++)
 				free(array[j]);
 			return (NULL);
-		}
+		}i
 	}
 
 	for (i = 0; i < height; i++)
