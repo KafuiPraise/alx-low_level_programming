@@ -3,7 +3,8 @@
 #include <stdio.h>
 #include "lists.h"
 
-/**reverse_listint - will reverses a linked list
+/** 
+ * reverse_listint - will reverses a linked list
  * head: points to the first node in the list
  *
  * Return: points to the first node in the new list
